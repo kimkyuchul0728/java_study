@@ -7,5 +7,7 @@ public class Main {
         BasicUserService userService = new BasicUserService(new CustomUserRepository());    // 의존성 주입
 
         userService.addUser();
+
+
     }
 }
