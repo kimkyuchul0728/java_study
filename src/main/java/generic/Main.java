@@ -17,6 +17,6 @@ public class Main {
         hsRepo.save(new HighStudent());
         asRepo.save(new AcademyStudent());
 
-        showAll(asRepo);
+        showAll(hsRepo);
     }
 }
